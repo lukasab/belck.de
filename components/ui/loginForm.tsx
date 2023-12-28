@@ -13,7 +13,6 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 import { signIn } from "next-auth/react";
-import Link from "next/link";
 import { useState } from "react";
 
 export default function LoginForm() {
