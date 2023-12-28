@@ -23,7 +23,7 @@ export default function LoginForm() {
       <CardHeader>
         <CardTitle>Login</CardTitle>
         <CardDescription>
-          Don&apos;t have an account? <Link href={"/register"}>Sign up</Link>
+          No account needed, just login with your email.
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -47,12 +47,12 @@ export default function LoginForm() {
               })
             }
           >
-            Continue
+            Get magic link
           </Button>
           <div className="flex items-center gap-2 justify-between">
-            <Separator className="w-[100px]" />
+            <Separator className="w-[130px]" />
             <p className="text-xs font-light">OR</p>
-            <Separator className="w-[100px]" />
+            <Separator className="w-[130px]" />
           </div>
           <Button
             onClick={() =>

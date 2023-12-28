@@ -5,6 +5,9 @@ import GoogleProvider from "next-auth/providers/google";
 import { PrismaAdapter } from "@next-auth/prisma-adapter"
 
 export const authOptions = {
+    session: {
+        strategy: "jwt", // Enforce JWTs instead of database sessions to enable middleware
+    },
     adapter: PrismaAdapter(prisma),
     providers: [
     EmailProvider({
