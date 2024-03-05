@@ -1,4 +1,4 @@
-import ToS from "@/components/ui/tos";
+import ToS from "@/components/tos";
 
 export default function TermOfServicesPage() {
   return (

@@ -1,4 +1,4 @@
-import PokerClient from "@/components/ui/pokerClient";
+import PokerClient from "@/components/poker/pokerClient";
 
 export default function PokerPlanningPage() {
   return (
